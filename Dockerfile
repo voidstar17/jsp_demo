@@ -1,4 +1,4 @@
-FROM tomcat:jdk8-corretto
+FROM inovatrend/tomcat8-java8
 
 ADD ./webapp /usr/local/tomcat/webapps/webapp
 
