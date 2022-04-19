@@ -1,5 +1,5 @@
 FROM quay.io/bitnami/tomcat
 
-ADD ./webapp /usr/local/tomcat/webapps/webapp
+ADD ./webapp /opt/bitnami/tomcat/webapps/ROOT/
 
 CMD ["catalina.sh", "run"]
