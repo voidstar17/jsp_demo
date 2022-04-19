@@ -1,4 +1,4 @@
-FROM tomcat:9.0.1-jre8-alpine
+FROM tomcat:jdk8-corretto
 
 ADD ./webapp /usr/local/tomcat/webapps/webapp
 
