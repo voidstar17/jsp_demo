@@ -1,4 +1,4 @@
-FROM inovatrend/tomcat8-java8
+FROM quay.io/bitnami/tomcat
 
 ADD ./webapp /usr/local/tomcat/webapps/webapp
 
